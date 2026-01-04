@@ -5,12 +5,16 @@
     {
       "src": "portfolio/portfolio/wsgi.py",
       "use": "@vercel/python"
+    },
+    {
+      "src": "portfolio/staticfiles/**",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/static/(.*)",
-      "dest": "/portfolio/staticfiles/$1"
+      "dest": "portfolio/staticfiles/$1"
     },
     {
       "src": "/(.*)",
