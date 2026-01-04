@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "name": "portfolio",
   "builds": [
     {
       "src": "portfolio/portfolio/wsgi.py",
