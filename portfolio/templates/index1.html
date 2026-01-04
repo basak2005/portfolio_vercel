@@ -1,0 +1,677 @@
+{% load static %}
+<!DOCTYPE html>
+<html class="no-js ss-preload" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+
+
+    <meta charset="utf-8">
+    <title>Souranil Basak - Software Developer</title>
+    <meta name="description" content="Full Stack Developer passionate about creating innovative web solutions">
+    <meta name="author" content="Your Name">
+
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="{% static 'css/vendor.css' %}">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="icon" type="image/jpeg" href="{% static 'favicon.jpg' %}">
+    <link rel="manifest" href="{% static 'site.webmanifest' %}">
+
+</head>
+
+<body id="top">
+
+
+    <!-- # preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+        </div>
+    </div>
+
+
+    <!-- # page wrap
+    ================================================== -->
+    <div class="s-pagewrap">
+
+        <div class="circles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- Decorative Shapes -->
+        <div class="decorative-shapes">
+            <div class="shape-triangle"></div>
+            <div class="shape-square"></div>
+            <div class="shape-circle-small"></div>
+            <div class="shape-oval"></div>
+            <div class="shape-hexagon"></div>
+            <div class="shape-diamond"></div>
+            <div class="shape-circle-medium"></div>
+            <div class="shape-rectangle"></div>
+            <div class="shape-star"></div>
+            <div class="shape-plus"></div>
+            <div class="shape-crescent"></div>
+            <div class="shape-triangle-2"></div>
+            <div class="shape-square-2"></div>
+            <div class="shape-circle-large"></div>
+            <div class="shape-polygon"></div>
+            <div class="shape-rhombus"></div>
+            <div class="shape-pentagon"></div>
+            <div class="shape-ellipse"></div>
+            <div class="shape-cross"></div>
+            <div class="shape-octagon"></div>
+            <div class="shape-trapezoid"></div>
+            <div class="shape-circle-outline"></div>
+            <div class="shape-square-outline"></div>
+            <div class="shape-spiral"></div>
+            <div class="shape-arrow"></div>
+        </div>
+
+
+        <!-- ## site header 
+        ================================================== -->
+        <header class="s-header">
+
+            <div class="header-mobile">
+                <span class="mobile-home-link"><a href="{% static 'index.html' %}">Souranil Basak</a></span>
+                <a class="mobile-menu-toggle" href="#0"><span>Menu</span></a>
+            </div>
+
+            <div class="row wide main-nav-wrap">
+                <nav class="column lg-12 main-nav">
+                    <ul>
+                        <li><a href="" class="home-link">Souranil Basak</a></li>
+                        <li class="current"><a href="#intro" class="smoothscroll">Home</a></li>
+                        <li><a href="#about" class="smoothscroll">About</a></li>
+                        <li><a href="#tech-stack" class="smoothscroll">Tech Stack</a></li>
+                        <li><a href="#works" class="smoothscroll">Projects</a></li>
+                        <li><a href="#contact" class="smoothscroll">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header> <!-- end s-header -->
+
+
+        <!-- ## main content
+        ==================================================- -->
+        <main class="s-content">
+
+
+            <!-- ### intro
+            ================================================== -->
+            <section id="intro" class="s-intro target-section">
+
+                <div class="row intro-content wide">
+
+                    <div class="column">
+                        <div class="text-pretitle with-line">
+                            Designing & Engaging High-Impact Digital Experiences
+                        </div>
+
+                        <h1 class="text-huge-title">
+                            Hey, I'm Souranil, <br>
+                            a Django Developer &<br>
+                            AI ML Enthusiast <br>
+                            driven by innovation, <br> 
+                            and dedicated to crafting <br>
+                            seamless, scalable, and <br>
+                            stunning web solutions. etc
+                        </h1>
+                    </div>
+
+                    <ul class="intro-social">
+                        <li><a href="mailto:souranilbasak@gmail.com">Gmail</a></li>
+                        <li><a href="https://www.linkedin.com/in/souranilbasak2005">LinkedIn</a></li>
+                        <li><a href="https://github.com/basak2005">GitHub</a></li>
+                        <li><a href="#0">Twitter</a></li>
+                    </ul>
+
+                </div> <!-- end intro content -->
+
+                <a href="#about" class="intro-scrolldown smoothscroll">
+                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M11 21.883l-6.235-7.527-.765.644 7.521 9 7.479-9-.764-.645-6.236 7.529v-21.884h-1v21.883z"/></svg>
+                </a>
+
+            </section> <!-- end s-intro -->
+
+
+            <!-- ### about
+            ================================================== -->
+            <section id="about" class="s-about target-section">
+
+
+                <div class="row about-info wide" data-animate-block>
+
+                    <div class="column lg-4 md-12 about-info__pic-block">
+                        <img src="{% static 'images/about-photo.jpeg' %}" 
+                             srcset="{% static 'images/about-photo.jpeg' %} 1x, {% static 'images/about-photo.jpeg' %} 2x" alt="Profile Picture" class="about-info__pic" data-animate-el style="max-width: 300px; width: 100%; height: auto;">
+                    </div>
+
+                    <div class="column lg-8 md-12">
+                        <div class="about-info__text" >
+
+                            <h2 class="text-pretitle with-line" data-animate-el>
+                                GET TO KNOW ME
+                            </h2>
+                            
+                            <p class="attention-getter" data-animate-el>
+                                I'm a passionate Full Stack Developer and AI/ML enthusiast from Kolkata, currently pursuing BCA at B.P. Poddar Institute. With expertise in Django, Python, and modern web technologies, I specialize in building intelligent web applications that solve real-world problems. From machine learning property predictors to automation tools and educational portals, I love transforming innovative ideas into scalable digital solutions through clean, efficient code and cutting-edge technologies.
+                            </p>
+                            <a href="{% static 'SOURANIL_BASAK.pdf' %}" target="_blank" class="btn btn--small" data-animate-el download>Download CV</a>
+
+                        </div>
+                    </div>
+                </div> <!-- about-info -->
+
+
+                <div class="row about-timelines" data-animate-block>
+
+                    <div class="column lg-6 tab-12">
+
+                        <h2 class="text-pretitle" data-animate-el>
+                            Experience
+                        </h2>
+
+                        <div class="timeline" data-animate-el>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Ardent Computech Pvt. Ltd.</h3>
+                                    <h5 class="timeline__meta">Machine Learning Developer</h5>
+                                    <p class="timeline__timeframe">July 2025 - September 2025</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>Developing and maintaining web applications using modern technologies. Collaborating with cross-functional teams to deliver high-quality software solutions. Focusing on performance optimization and user experience enhancement.</p>
+                                </div>
+                            </div>
+    
+                        </div> <!-- end timeline -->
+
+                    </div> <!-- end column -->
+
+                    <div class="column lg-6 tab-12">
+
+                        <h2 class="text-pretitle" data-animate-el>
+                            Education
+                        </h2>
+
+                        <div class="timeline" data-animate-el>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">B. P. Poddar Institute Of Management & Technology</h3>
+                                    <h5 class="timeline__meta">Bachelor of Computer Application</h5>
+                                    <p class="timeline__timeframe">2023 - Present</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>Completing the course, focusing on software engineering, web development, and computer science fundamentals. Participated in various coding competitions and hackathons.</p>
+                                </div>
+                            </div>
+    
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Muraripukur Govt. Spond. Higher Secndary School</h4>
+                                    <h5 class="timeline__meta">Higher Secondary (Commerce Stream)</h5>
+                                    <p class="timeline__timeframe">2022 - 2023</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>Passed Higher Secondary with Overall <b>89.4%</b> in total with Highest Marks in Computer Application </p>
+                                </div>
+                            </div>
+
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Muraripukur Govt. Spond. Higher Secndary School</h4>
+                                    <h5 class="timeline__meta">Secondary</h5>
+                                    <p class="timeline__timeframe">2021 - 2022</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>Passed Madhyamik with Overall <b>85%</b></p>
+                                </div>
+                            </div>
+                        </div> <!-- end timeline -->
+                        
+                    </div> <!-- end column -->
+
+
+                </div> <!-- end about-timelines -->
+
+            </section> <!-- end s-about -->
+
+
+            <!-- ### tech stack
+            ================================================== -->
+            <section id="tech-stack" class="s-tech-stack target-section">
+
+                <div class="row wide" data-animate-block>
+                    <div class="column lg-12">
+
+                        <h2 class="text-pretitle" data-animate-el>EXPLORE MY TECH ARSENAL</h2>
+                        <h3 class="h1" data-animate-el>Tech Stack</h3>
+
+                        <div class="tech-grid" data-animate-el>
+                            <a href="https://www.python.org/" target="_blank" class="tech-item">
+                                <div class="tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="40" height="40">
+                                </div>
+                                <span>Python</span>
+                            </a>
+                            <a href="https://www.djangoproject.com/" target="_blank" class="tech-item">
+                                <div class="tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django" width="40" height="40">
+                                </div>
+                                <span>Django</span>
+                            </a>
+                            <a href="https://html.spec.whatwg.org/" target="_blank" class="tech-item">
+                                <div class="tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="40" height="40">
+                                </div>
+                                <span>HTML</span>
+                            </a>
+                            <a href="https://www.w3.org/Style/CSS/" target="_blank" class="tech-item">
+                                <div class="tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="40" height="40">
+                                </div>
+                                <span>CSS</span>
+                            </a>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" class="tech-item">
+                                <div class="tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40">
+                                </div>
+                                <span>JavaScript</span>
+                            </a>
+                            <a href="https://www.mysql.com/" target="_blank" class="tech-item">
+                                <div class="tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL" width="40" height="40">
+                                </div>
+                                <span>SQL</span>
+                            </a>
+                            <a href="https://www.ibm.com/topics/machine-learning" target="_blank" class="tech-item">
+                                <div class="tech-icon">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFm9LHjlRaQ2BWyP0T9cc66sZEHmuzle_7cw&s" alt="Machine Learning" width="40" height="40">
+                                </div>
+                                <span>Machine Learning</span>
+                            </a>
+                            <a href="https://selenium-python.readthedocs.io/" target="_blank" class="tech-item">
+                                <div class="tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" alt="Selenium" width="40" height="40">
+                                </div>
+                                <span>Selenium</span>
+                            </a>
+                            <a href="https://www.sqlite.org/" target="_blank" class="tech-item">
+                                <div class="tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" alt="SQLite" width="40" height="40">
+                                </div>
+                                <span>SQLite</span>
+                            </a>
+                            <a href="https://pandas.pydata.org/" target="_blank" class="tech-item">
+                                <div class="tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas" width="40" height="40">
+                              
+                                </div>
+                                <span>Pandas</span>
+                            </a>
+                            <a href="https://numpy.org/" target="_blank" class="tech-item">
+                                <div class="tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy" width="40" height="40">
+                              
+                                </div>
+                                <span>NumPy</span>
+                            </a>
+                            <a href="https://scikit-learn.org/" target="_blank" class="tech-item">
+                                <div class="tech-icon">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn" width="40" height="40">
+                                </div>
+                                <span>Scikit-learn</span>
+                            </a>
+                            <a href="https://xgboost.readthedocs.io/" target="_blank" class="tech-item">
+                                <div class="tech-icon">
+                                    <img src="https://raw.githubusercontent.com/dmlc/dmlc.github.io/master/img/logo-m/xgboost.png" alt="XGBoost" width="40" height="40">
+                                </div>
+                                <span>XGBoost</span>
+                            </a>
+                            <a href="https://git-scm.com/" target="_blank" class="tech-item">
+                                <div class="tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="40" height="40">
+                                </div>
+                                <span>Git</span>
+                            </a>
+                            <a href="https://github.com/" target="_blank" class="tech-item">
+                                <div class="tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="40" height="40">
+                                </div>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://docs.python.org/3/library/pickle.html" target="_blank" class="tech-item">
+                                <div class="tech-icon">
+                                    <img src="https://vtlogo.com/wp-content/uploads/2021/08/pickle-illustration-vector-logo.png" alt="">
+                                </div>
+                                <span>Pickle</span>
+                            </a>
+                            <a href="https://selenium-python.readthedocs.io/api.html#module-selenium.webdriver" target="_blank" class="tech-item">
+                                <div class="tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" alt="WebDriver" width="40" height="40">
+                                </div>
+                                <span>WebDriver</span>
+                            </a>
+                        </div>
+
+                    </div>
+                </div> <!-- end row -->
+
+            </section> <!-- end s-tech-stack -->
+
+
+            <!-- ### works
+            ================================================== -->
+            <section id="works" class="s-works target-section">
+
+
+                <div class="row works-portfolio">
+
+                    <div class="column lg-12" data-animate-block>
+
+                        <h2 class="text-pretitle" data-animate-el>
+                            EXPLORE MY CREATIONS
+                        </h2>
+                        <p class="h1" data-animate-el>
+                            Here are some of my favorite projects I have built recently. Each one represents a unique challenge and solution.
+                        </p>
+    
+                        <ul class="folio-list row block-lg-one-half block-stack-on-1000">
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-01">
+                                    <div class="folio-list__item-pic">
+                                        <img src="{% static 'images/portfolio/ml_property.png' %}"
+                                             srcset="{% static 'images/portfolio/ml_property.png' %} 1x, {% static 'images/portfolio/ml_property.png' %} 2x"  alt="">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Django Machine Learning App
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            ML Property Price Predictor
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="https://github.com/basak2005/Ml_project_with_djago_deployment" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-02">
+                                    <div class="folio-list__item-pic">
+                                        <img src="{% static 'images/portfolio/school.jpg' %}" 
+                                             srcset="{% static 'images/portfolio/school.jpg' %} 1x, {% static 'images/portfolio/school.jpg' %} 2x" alt="">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Fullstack Educational Website
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            School Website
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="https://github.com/souranil19/marks_portal" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-04">
+                                    <div class="folio-list__item-pic">
+                                        <img src="{% static 'images/portfolio/whatsapp.jpg' %}?v=2"
+                                             srcset="{% static 'images/portfolio/whatsapp.jpg' %}?v=2 1x, {% static 'images/portfolio/whatsapp.jpg' %}?v=2 2x" alt="">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Automation Tool using Selenium
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            WhatsApp Message Automation
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="https://github.com/basak2005/Automation" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-06">
+                                    <div class="folio-list__item-pic">
+                                        <img src="{% static 'images/portfolio/kirana.png' %}" 
+                                             srcset="{% static 'images/portfolio/kirana.png' %} 1x, {% static 'images/portfolio/kirana.png' %} 2x" alt="">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Fullstack django Website
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Kirana Store
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="https://github.com/basak2005/kirana_store" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                        </ul> <!-- end folio-list -->
+
+                    </div> <!-- end column -->
+
+
+                    <!-- Modal Templates Popup
+                    -------------------------------------------- -->
+                    <div id="modal-01" hidden>
+                        <div class="modal-popup">
+                            <img src="{% static 'images/portfolio/ml_property.png' %}" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>ML Property Price Predictor</h5>
+                                <p>A comprehensive Django web application for property price prediction using machine learning algorithms. Built with Django framework, this project includes user authentication system, data processing modules, and ML model deployment for real-time property price predictions. The application combines modern web development with data science.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Django</li>
+                                    <li>Python</li>
+                                    <li>Machine Learning</li>
+                                    <li>HTML/CSS</li>
+                                </ul>
+                            </div>
+                
+                            <a href="https://github.com/basak2005/Ml_project_with_djago_deployment" class="modal-popup__details">GitHub Repository</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-02" hidden>
+                        <div class="modal-popup">
+                            <img src="{% static 'images/portfolio/school.jpg' %}" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>School Marks Portal</h5>
+                                <p>A comprehensive school marks management portal built with modern web technologies. This full-stack application features student marks tracking, grade management, and administrative functionalities. Developed with HTML, Python, CSS, and JavaScript to provide a complete educational management solution with 52+ commits of active development.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>HTML</li>
+                                    <li>Python</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                </ul>
+                            </div>
+                
+                            <a href="https://github.com/souranil19/marks_portal" class="modal-popup__details">GitHub Repository</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-04" hidden>
+                        <div class="modal-popup">
+                            <img src="{% static 'images/portfolio/whatsapp.jpg' %}?v=2" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>WhatsApp Automated Message Sender</h5>
+                                <p>An intelligent automation tool designed for bulk WhatsApp messaging using Python and Selenium WebDriver. Features automated message sending from contact lists, customizable message templates, and robust browser automation. Includes message.txt and numbers.txt file handling for efficient bulk messaging operations.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Python</li>
+                                    <li>Selenium WebDriver</li>
+                                    <li>Automation</li>
+                                    <li>Web Scraping</li>
+                                </ul>
+                            </div>
+                
+                            <a href="https://github.com/basak2005/Automation" class="modal-popup__details">GitHub Repository</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-06" hidden>
+                        <div class="modal-popup">
+                            <img src="{% static 'images/portfolio/kirana.png' %}" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>Kirana Store Website</h5>
+                                <p>A modern web application for a traditional Indian kirana (grocery) store, built with Django framework. This full-stack project combines HTML, CSS, JavaScript, and Python to create a comprehensive store management system with contemporary web design for local grocery business operations.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Django</li>
+                                    <li>Python</li>
+                                    <li>HTML/CSS</li>
+                                    <li>JavaScript</li>
+                                </ul>
+                            </div>
+                
+                            <a href="https://github.com/basak2005/kirana_store" class="modal-popup__details">GitHub Repository</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                </div> <!-- end works-portfolio -->
+
+
+            <!-- ### contact
+            ================================================== -->
+            <section id="contact" class="s-contact target-section">
+
+                <div class="row contact-top">
+                    <div class="column lg-12">
+                        <h2 class="text-pretitle">
+                            GET IN TOUCH
+                        </h2>
+                        <p class="h1">
+                            I love to hear from you. Whether you have a question or just 
+                            want to chat about development, tech & innovation — shoot me a message.
+                        </p>
+                    </div>
+                </div> <!-- end contact-top -->
+
+                <div class="row contact-form">
+                    <div class="column lg-6 md-12">
+                        <form id="contactForm" class="contact-form" method="post">
+                            {% csrf_token %}
+                            <div class="form-field">
+                                <input class="full-width" name="contactName" placeholder="Your Name" id="contactName" type="text" required>
+                            </div>
+                            <div class="form-field">
+                                <input class="full-width" name="contactEmail" placeholder="Your Email" id="contactEmail" type="email" required>
+                            </div>
+                            <div class="form-field">
+                                <input class="full-width" name="contactSubject" placeholder="Subject" id="contactSubject" type="text">
+                            </div>
+                            <div class="form-field">
+                                <textarea class="full-width" name="contactMessage" placeholder="Your Message" id="contactMessage" rows="6" required></textarea>
+                            </div>
+                            <div class="form-field">
+                                <button type="submit" class="btn btn--primary full-width" id="submitBtn">Send Message</button>
+                            </div>
+                            <div id="form-message" style="margin-top: 15px; padding: 10px; border-radius: 5px; display: none;"></div>
+                        </form>
+                    </div>
+                    <div class="column lg-6 md-12">
+                        <div class="contact-info">
+                            <div class="contact-block">
+                                <h4>Available for new projects</h4>
+                                <p>I'm always interested in hearing about new opportunities and exciting projects. Let's build something amazing together!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- end contact-form -->
+
+                <div class="row contact-bottom">
+                    <div class="column lg-3 md-5 tab-6 stack-on-550 contact-block">
+                        <h3 class="text-pretitle">Reach me at</h3>
+                        <p class="contact-links">
+                            <a href="mailto:souranilbasak@gmail.com" class="mailtoui">souranilbasak@gmail.com</a> <br>
+                            <a href="tel:+917980690813">+917980690813</a>
+                        </p>
+                    </div>
+                    <div class="column lg-4 md-5 tab-6 stack-on-550 contact-block">
+                        <h3 class="text-pretitle">Social</h3>
+                        <ul class="contact-social">
+                            <li><a href="https://www.linkedin.com/in/souranilbasak2005">LinkedIn</a></li>
+                            <li><a href="https://github.com/basak2005">GitHub</a></li>
+                        </ul>
+                    </div>
+                    <div class="column lg-4 md-12 contact-block">
+                        <a href="mailto:souranilbasak@gmail.com" class="mailtoui btn btn--medium u-fullwidth contact-btn">Send Message</a>
+                    </div>
+                </div> <!-- end contact-bottom -->
+
+            </section> <!-- end contact -->
+
+        </main> <!-- end s-content -->
+
+
+        <!-- ## footer
+        ================================================== -->
+        <footer class="s-footer">
+
+            <div class="row">
+                <div class="column ss-copyright">
+                    <span>© 2025 Souranil Basak. All rights reserved.</span> 
+                </div>
+
+                <div class="ss-go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill-rule="evenodd" clip-rule="evenodd"><path d="M11 2.206l-6.235 7.528-.765-.645 7.521-9 7.479 9-.764.646-6.236-7.53v21.884h-1v-21.883z"/></svg>
+                    </a>
+                </div>
+            </div>
+
+        </footer> <!-- end s-footer -->
+
+    </div> <!-- end -s-pagewrap -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="{% static 'js/plugins.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+
+</body>
+</html>
