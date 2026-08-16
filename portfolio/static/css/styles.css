@@ -4126,9 +4126,24 @@ img.u-pull-left {
 }
 
 .contact-bottom {
+    display        : grid;
+    grid-template-columns : minmax(220px, 1.2fr) minmax(200px, 1.4fr) minmax(220px, 1.6fr);
+    column-gap     : clamp(1.5rem, 3vw, 3rem);
+    row-gap        : 1.5rem;
     padding-bottom : var(--vspace-3);
     margin-top     : var(--vspace-3);
     border-bottom  : 1px solid var(--color-border);
+    align-items    : start;
+}
+
+.contact-bottom .contact-block {
+    min-width : 0;
+}
+
+.contact-bottom .contact-block:last-child {
+    width      : 100%;
+    max-width  : 260px;
+    justify-self: end;
 }
 
 .contact-bottom .text-pretitle {
@@ -4183,6 +4198,10 @@ img.u-pull-left {
  * contact
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 1200px) {
+    .contact-bottom {
+        grid-template-columns : 1fr 1fr;
+    }
+
     .contact-btn {
         margin-top   : var(--vspace-0_5);
         margin-left  : 0;
@@ -4193,6 +4212,15 @@ img.u-pull-left {
 @media screen and (max-width: 800px) {
     .contact-top {
         padding-top : var(--vspace-4);
+    }
+
+    .contact-bottom {
+        grid-template-columns : 1fr;
+    }
+
+    .contact-bottom .contact-block:last-child {
+        max-width : 100%;
+        justify-self : stretch;
     }
 }
 
