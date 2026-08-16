@@ -4146,16 +4146,14 @@ img.u-pull-left {
 }
 
 .contact-bottom .contact-block:first-child {
-    flex-basis : 320px;
     min-width  : 0;
 }
 
 .contact-bottom .contact-block:nth-child(2) {
-    flex-basis : 240px;
+    min-width : 0;
 }
 
 .contact-bottom .contact-block:last-child {
-    flex-basis : 260px;
     margin-left: auto;
     align-self : flex-end;
 }
