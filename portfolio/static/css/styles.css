@@ -4137,10 +4137,10 @@ img.u-pull-left {
 }
 
 .contact-bottom .contact-block {
-    min-width : 0;
-    display   : flex;
-    flex-direction: column;
-    gap       : 0.6rem;
+    min-width      : 0;
+    display        : flex;
+    flex-direction : column;
+    gap            : 0.6rem;
 }
 
 .contact-bottom .contact-block:last-child {
@@ -4156,10 +4156,13 @@ img.u-pull-left {
 
 .contact-links,
 .contact-social {
-    font-size   : var(--text-md);
-    font-weight : 300;
-    line-height : var(--vspace-1_25);
-    color       : var(--color-text-light);
+    display          : block;
+    font-size        : var(--text-md);
+    font-weight      : 300;
+    line-height      : var(--vspace-1_25);
+    color            : var(--color-text-light);
+    overflow-wrap    : anywhere;
+    word-break       : break-word;
 }
 
 .contact-links a,
