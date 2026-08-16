@@ -4127,8 +4127,8 @@ img.u-pull-left {
 
 .contact-bottom {
     display               : grid;
-    grid-template-columns : minmax(220px, 1.2fr) minmax(200px, 1.4fr) minmax(220px, 1.6fr);
-    column-gap            : clamp(1.5rem, 3vw, 3rem);
+    grid-template-columns : minmax(260px, 1.1fr) minmax(190px, 0.9fr) minmax(180px, 0.9fr);
+    column-gap            : clamp(1.5rem, 2.5vw, 3rem);
     row-gap               : 1.5rem;
     padding-bottom        : var(--vspace-3);
     margin-top            : var(--vspace-3);
@@ -4165,11 +4165,14 @@ img.u-pull-left {
     color            : var(--color-text-light);
     overflow-wrap    : anywhere;
     word-break       : break-word;
+    white-space      : normal;
 }
 
 .contact-links a,
 .contact-social a {
-    color : var(--color-text-light);
+    color        : var(--color-text-light);
+    white-space  : normal;
+    word-break   : break-word;
 }
 
 .contact-links a:focus,
@@ -4196,6 +4199,10 @@ img.u-pull-left {
 
 .contact-social li::after {
     content : "";
+}
+
+.contact-social li:last-child::after {
+    display : none;
 }
 
 .contact-btn {
