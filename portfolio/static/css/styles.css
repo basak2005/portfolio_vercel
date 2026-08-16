@@ -4168,14 +4168,14 @@ img.u-pull-left {
 .contact-links,
 .contact-social {
     display       : block;
-    min-width     : 0;
+    min-width     : auto;
     max-width     : 100%;
     font-size     : var(--text-md);
     font-weight   : 300;
     line-height   : var(--vspace-1_25);
     color         : var(--color-text-light);
-    overflow-wrap : anywhere;
-    word-break    : break-word;
+    overflow-wrap : break-word;
+    word-break    : normal;
     white-space   : normal;
 }
 
