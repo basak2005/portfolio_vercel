@@ -4151,7 +4151,9 @@ img.u-pull-left {
 }
 
 .contact-bottom .text-pretitle {
-    margin-bottom : 0;
+    margin-bottom  : 0;
+    letter-spacing : .12em;
+    white-space    : nowrap;
 }
 
 .contact-links,
@@ -4224,6 +4226,11 @@ img.u-pull-left {
 
     .contact-bottom {
         grid-template-columns : 1fr;
+    }
+
+    .contact-bottom .text-pretitle {
+        letter-spacing : .08em;
+        white-space    : normal;
     }
 
     .contact-bottom .contact-block:last-child {
