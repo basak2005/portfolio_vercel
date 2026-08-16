@@ -4126,28 +4126,35 @@ img.u-pull-left {
 }
 
 .contact-bottom {
-    display               : grid;
-    grid-template-columns : minmax(260px, 1.1fr) minmax(190px, 0.9fr) minmax(180px, 0.9fr);
-    column-gap            : clamp(1.5rem, 2.5vw, 3rem);
-    row-gap               : 1.5rem;
-    padding-bottom        : var(--vspace-3);
-    margin-top            : var(--vspace-3);
-    border-bottom         : 1px solid var(--color-border);
-    align-items           : start;
+    display        : flex;
+    flex-wrap      : wrap;
+    align-items    : flex-start;
+    gap            : clamp(1.5rem, 3vw, 3rem);
+    padding-bottom : var(--vspace-3);
+    margin-top     : var(--vspace-3);
+    border-bottom  : 1px solid var(--color-border);
 }
 
 .contact-bottom .contact-block {
-    min-width      : 0;
-    display        : flex;
-    flex-direction : column;
-    gap            : 0.6rem;
+    flex          : 1 1 220px;
+    min-width     : 220px;
+    display       : flex;
+    flex-direction: column;
+    gap           : 0.6rem;
+}
+
+.contact-bottom .contact-block:first-child {
+    flex-basis : 320px;
+}
+
+.contact-bottom .contact-block:nth-child(2) {
+    flex-basis : 240px;
 }
 
 .contact-bottom .contact-block:last-child {
-    width        : 100%;
-    max-width    : 260px;
-    justify-self : end;
-    align-self   : end;
+    flex-basis : 260px;
+    margin-left: auto;
+    align-self : flex-end;
 }
 
 .contact-bottom .text-pretitle {
@@ -4158,21 +4165,25 @@ img.u-pull-left {
 
 .contact-links,
 .contact-social {
-    display          : block;
-    font-size        : var(--text-md);
-    font-weight      : 300;
-    line-height      : var(--vspace-1_25);
-    color            : var(--color-text-light);
-    overflow-wrap    : anywhere;
-    word-break       : break-word;
-    white-space      : normal;
+    display       : block;
+    min-width     : 0;
+    max-width     : 100%;
+    font-size     : var(--text-md);
+    font-weight   : 300;
+    line-height   : var(--vspace-1_25);
+    color         : var(--color-text-light);
+    overflow-wrap : anywhere;
+    word-break    : break-word;
+    white-space   : normal;
 }
 
 .contact-links a,
 .contact-social a {
-    color        : var(--color-text-light);
-    white-space  : normal;
-    word-break   : break-word;
+    color       : var(--color-text-light);
+    display     : inline-block;
+    max-width   : 100%;
+    white-space : normal;
+    word-break  : break-word;
 }
 
 .contact-links a:focus,
