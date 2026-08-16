@@ -4222,6 +4222,30 @@ img.u-pull-left {
     margin-right : 5vw;
 }
 
+
+/*new block added */
+
+
+.contact-bottom.row {
+    display : flex;
+    flex-wrap : wrap;
+}
+
+.contact-bottom .column.lg-3 {
+    flex : 0 1 300px;
+    max-width : none;
+    width : auto;
+}
+
+.contact-bottom .column.lg-4 {
+    flex : 0 1 300px;
+    max-width : none;
+    width : auto;
+}
+
+.contact-bottom .contact-block {
+    min-width : 0;
+}
 /* ------------------------------------------------------------------- 
  * responsive:
  * contact
