@@ -3545,6 +3545,7 @@ img.u-pull-left {
     margin-top    : var(--vspace-1_25);
     padding-right : 1vw;
     position      : relative;
+    display       : block;
 }
 
 .timeline::before {
@@ -3562,6 +3563,15 @@ img.u-pull-left {
     padding-left   : var(--timeline-left-padding);
     padding-bottom : var(--vspace-0_5);
     position       : relative;
+    display        : block;
+}
+
+.timeline__block--primary {
+    order : 1;
+}
+
+.timeline__block--secondary {
+    order : 2;
 }
 
 .timeline__block:last-child {
